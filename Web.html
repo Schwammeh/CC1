@@ -1,0 +1,104 @@
+<DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1{
+	margin: auto;
+	text-align: center;
+	font-family : helvetica;
+	font-size : 35px;
+	padding-top: 50px;
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.button{
+	border: 1px solid;
+	color: black;
+	font-family: helvetica;
+	font-size: 15px;
+	border-style : solid; 
+	border-width : thick; 
+	border-radius : 30px;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	width: 200px;
+	margin-right: 10px;
+}
+
+.button:active{
+	transform : translateY(4px);
+}
+
+#intro{
+	text-align: center;
+	font-family: helvetica;
+	font-size : 35px;
+	padding : 5px;
+}
+
+.padlogo{
+	float: right;
+}
+
+.anim{
+	animation-name : fadein;
+	animation-duration : 1.2s;
+}
+
+@keyframes fadein{
+	from{opacity:0}
+	to{opacity:1;}
+}
+
+
+<title> Web Page </title>
+</style>
+</head>
+
+<body class = "anim">
+
+<div class = "padlogo">
+<a href = "https://www.facebook.com/samueljoshua.likigan">
+<img src = "fb.png" alt = "FB acc" width = "50px" height = "50px">
+</a>
+<a href = "https://www.instagram.com/senilejas/?hl=en">
+<img src = "instagram.png" alt = "Instagram acc" width = "50px" height = "50px">
+</a>
+</div>
+
+<ul>
+	<li><a href = "Web.html" class = "button"> HOME </a></li>
+	<li><a href = "AboutMe.html" class = "button"> ABOUT ME </a></li>
+	<li><a href = "Resume.html" class = "button"> RESUME </a></li>
+	<li><a href = "Project.html" class = "button"> PROJECTS </a></li>
+	<li><a href = "UC%20tab.html" class = "button"> MY SCHOOL </a></li>
+</ul>
+
+<h1> HI I'M SAMUEL JOSHUA B. LIKIGAN </h1>
+
+<div id = "intro">
+	<p> A beginner in</p>
+	<p> Programming Photography Poetry </p>
+</div>
+
+</body>
+</html>

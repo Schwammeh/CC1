@@ -1,0 +1,105 @@
+<DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+	text-align : center;
+	font-family : helvetica;
+	font-size : 35px;
+	padding-top : 50px
+}
+
+.animate{
+	animation-duration : 2s;
+	animation-name : fadein;
+}
+
+@keyframes fadein{
+	from{opacity : 0;}
+	to{opacity : 1;}
+}
+
+.zoom{
+	transition : all 200ms ease-in;
+	transfrom: scale(1);
+}
+
+.zoom:hover{
+	transform : scale(1.2);
+	transition : all 200ms ease-in;
+}
+
+.Img{
+	border-radius:5px;
+	margin:25px;	
+}
+
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+}
+
+.button{
+	border: 1px solid;
+	color: black;
+	font-family: helvetica;
+	font-size: 15px;
+	border-style : solid; 
+	border-width : thick; 
+	border-radius : 30px;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	width: 200px;
+	margin-right: 10px;
+}
+
+.button:active{
+	transform : translateY(4px);
+}
+
+.padlogo{
+	float: right;
+}
+
+</style>
+<title> Photos </title>
+</head>
+<body class = "animate">
+
+<div class = "padlogo">
+<a href = "https://www.facebook.com/samueljoshua.likigan">
+<img src = "fb.png" alt = "FB acc" width = "50px" height = "50px">
+</a>
+<a href = "https://www.instagram.com/senilejas/?hl=en">
+<img src = "instagram.png" alt = "Instagram acc" width = "50px" height = "50px">
+</a>
+</div>
+
+<ul>
+	<li><a href = "Web.html" class = "button"> HOME </a></li>
+	<li><a href = "AboutMe.html" class = "button"> ABOUT ME </a></li>
+	<li><a href = "Resume.html" class = "button"> RESUME </a></li>
+	<li><a href = "Project.html" class = "button"> PROJECTS </a></li>
+	<li><a href = "UC%20tab.html" class = "button"> MY SCHOOL </a></li>
+</ul>
+
+<h1> Projects </h1>
+
+<iframe src = "Photos.html" height = "300" width = "1250" style = "border:none;"> </iframe>
+
+</body>
+</html>
